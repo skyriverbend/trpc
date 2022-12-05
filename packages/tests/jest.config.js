@@ -9,8 +9,8 @@ module.exports = {
     '!**/deprecated/**',
   ],
   setupFilesAfterEnv: [
-    // './server/jest.setup.js',
     '@testing-library/jest-dom/extend-expect',
+    './tests/jest.setup.js',
   ],
   globals: {
     'ts-jest': {
